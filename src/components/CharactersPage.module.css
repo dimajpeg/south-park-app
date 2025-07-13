@@ -1,0 +1,58 @@
+/* src/components/CharactersPage.module.css - ПОСЛЕДНЯЯ ВЕРСИЯ */
+.charactersPage {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === ИЗМЕНЕНИЕ ТОЛЬКО ЗДЕСЬ === */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; /* Текст слева */
+  align-items: center;         /* Текст и стрелка на одной линии по центру */
+  position: relative;    
+}
+
+.title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 90px;
+  color: #000;
+  margin: 0;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 100px; /* Стрелка остается на своем месте */
+  cursor: pointer;
+  background-color: transparent;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 90px;
+  color: #000;
+}
+
+.charactersContainer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.character {
+  margin: 0 10px;
+}
+
+.stan, .kyle, .cartman, .kenny {
+  height: 55vh;
+}
+ 

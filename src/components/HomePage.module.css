@@ -1,0 +1,59 @@
+.homePage {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.titleOfficial {
+  position: absolute;
+  right: 200px;
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 120px;
+  color: #000;
+  margin: 0;
+}
+
+.titleWebsite {
+  position: absolute;
+  top: 130px;
+  right: 13px;
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 120px;
+  color: #000;
+  margin: 0;
+}
+
+.titleSouthPark {
+  position: absolute;
+  top: 245px;
+  right: 130px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 90px;
+  color: #f3c2ff;
+  margin: 0;
+}
+
+.continueButton {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  width: 485px;
+  height: 129px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 94px;
+  color: #000;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 190, 142, 0.7);
+}
